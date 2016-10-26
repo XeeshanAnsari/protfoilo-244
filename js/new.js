@@ -1,10 +1,10 @@
 /* function for slide Bar*/
            var imgCount = 1;
-            var total = 7 ;
+            var total = 6 ;
  window.setInterval(function slideA() {
             
             var image = document.getElementById("img");
-            imgCount = imgCount + 1;
+            imgCount++ ;
             if(imgCount < 1){
                 imgCount = total;
             }
