@@ -3,20 +3,44 @@ body{
     margin: 0px;
     
 }
-#mainSection{
-    background-color: grey;
+#header{
+    width: 100%;
+    height: 300px;
+   
+    text-align: center; 
 }
-#protBox{
+#header img{
+    width: 100%;
+    height: 300px;
+}
+.mainSection{
+   background-color: gray;
+   height: 600px;
+    padding: 30px 5%;
+}
+
+.protBox{
     border: 1px solid cadetblue;
     text-align: center;
     padding: 0px;
-    
+    margin: 10px 2%;
 }
-#protBox:hover{
+.protBox:hover{
     box-shadow: 2px 2px 5px  blueviolet;
 }
-#protBox img{
+.protBox img{
     width: 100%;
     height: 200px;
+    
+}
+#hiddenLink{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
+#hiddenLink:link{
+    color: rgba(red, green, blue, 1);
+    margin: 20px auto;
     
 }
