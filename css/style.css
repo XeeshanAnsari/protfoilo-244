@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#mainSection{
+    background-color: grey;
+}
+#protBox{
+    border: 1px solid cadetblue;
+    text-align: center;
+    padding: 0px;
+    
+}
+#protBox:hover{
+    box-shadow: 2px 2px 5px  blueviolet;
+}
+#protBox img{
+    width: 100%;
+    height: 200px;
+    
+}
