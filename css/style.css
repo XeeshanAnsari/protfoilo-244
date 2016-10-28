@@ -14,7 +14,7 @@ body{
     height: 300px;
 }
 .mainSection{
-   background-color: gray;
+   background-color: #EFEEE5;
    height: 600px;
     padding: 30px 5%;
 }
@@ -48,4 +48,35 @@ body{
     padding: 100px;
     text-align: center;
     margin: 0px;
+    background-color: darkgray;
 }
+
+
+
+/* footer section start*/
+#footer{
+    background-color: #000000;
+    padding: 50px;
+}
+
+.footerColum h3{
+    margin-left: 15%;
+    color: dimgray;
+}
+.footerColum ul{
+    list-style: none;
+    margin-left: 0px;
+}
+.connectIcon img{
+    width: 10%;
+    height: 20px;
+    margin: 2px;
+    color: black;
+}
+#copyRight p{
+    color: dimgray;
+   text-align: center;
+}
+
+
+/* footer section end*/
