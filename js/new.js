@@ -18,13 +18,14 @@
         },3000);
 /* function for change the apperance when mouse over */
 
-function changeProtBoxOver(box1){
+function changeProtBoxOver(){
     var id = document.getElementById("box1");
-     id.style.opacity = 0.4;
+     id.style.opacity = 0.7;
      
      var linksshow = document.getElementById("hiddenLink");
      linksshow.style.display = "block";
      linksshow.style.opacity = 1;
+     
 }
 
 

@@ -36,19 +36,22 @@ body{
 #hiddenLink{
     display: none;
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 25%;
-}
-#hiddenLink:link{
-    color: rgba(red, green, blue, 1);
-    margin: 20px auto;
     
 }
+
+
 #about{
-    padding: 100px;
+    position: relative;
     text-align: center;
+    background: url(../image/cover.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
     margin: 0px;
-    background-color: darkgray;
+    color: white;
+    font-size: 2em;
 }
 
 
