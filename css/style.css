@@ -13,6 +13,27 @@ body{
     width: 100%;
     height: 300px;
 }
+/* navigation bar*/
+#navbarBox{
+    background-color: white;
+    margin: 0px;
+    padding-left : 40%;
+    opacity: 1;
+    
+}
+
+#navItem > li > a{
+     border-bottom:  2px solid  white;
+     
+}
+#navItem > li > a:hover{
+     border-bottom:  2px solid  black;
+     color: black;
+
+}
+
+		
+/* navigation bar*/
 .mainSection{
    background-color: #EFEEE5;
    height: 600px;
@@ -61,6 +82,10 @@ body{
     background-color: #000000;
     padding: 50px;
 }
+.footerInside{
+    border-bottom: 1px solid dimgray;
+    padding: 20px;
+}
 
 .footerColum h3{
     margin-left: 15%;
@@ -78,6 +103,7 @@ body{
 }
 #copyRight p{
     color: dimgray;
+    padding-top: 20px;
    text-align: center;
 }
 
