@@ -1,21 +1,4 @@
-/* function for slide Bar*/
-           var imgCount = 1;
-            var total = 6 ;
- window.setInterval(function slideA() {
-            
-            var image = document.getElementById("img");
-            imgCount++ ;
-            if(imgCount < 1){
-                imgCount = total;
-            }
-            else if(imgCount > total){
-                imgCount = 1;
-            }
-            else{
-                 image.src = "./image/img" + imgCount + ".jpg";
-            }
-              
-        },3000);
+
 /* function for change the apperance when mouse over */
 
 function changeProtBoxOver(){
