@@ -20,6 +20,17 @@ function changeProtBoxOut(box1){
      
      var linksshow = document.getElementById("hiddenLink");
      linksshow.style.display = "none";
-     
-    
+        
 }
+ function box() {
+     var border = 0;
+     var div = document.getElementById("short-intro");
+      
+    
+     for (var i=0; i < 10; i++){
+         div.style.opacity = border;
+         border = border + 0.1;
+         
+      }  
+ }
+ 
