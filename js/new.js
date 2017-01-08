@@ -1,25 +1,20 @@
 
 /* function for change the apperance when mouse over */
 
-function changeProtBoxOver(){
-    var id = document.getElementById("box1");
-     
-     
-     var linksshow = document.getElementById("hiddenLink-1");
-     linksshow.style.display = "block";
-     linksshow.style.opacity = 1;
-     
+function changeProtBoxOver(boxId){
+    var id = document.getElementById(boxId);
+    var hidden = id.childNodes[5];
+     hidden.style.display = "block";
+    
 }
 
 
 /* function for change the apperance when mouse out */
 
-function changeProtBoxOut(box1){
-    var id = document.getElementById("box1");
-     id.style.opacity = 1;
-     
-     var linksshow = document.getElementById("hiddenLink-1");
-     linksshow.style.display = "none";
+function changeProtBoxOut(boxId){
+    var id = document.getElementById(boxId);
+    var hidden = id.childNodes[5];
+     hidden.style.display = "none";
         
 }
  function box() {
