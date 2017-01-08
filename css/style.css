@@ -124,7 +124,7 @@ body{
 #about{
     position: relative;
     text-align: center;
-    background: url(../image/cover.jpg) no-repeat center center;
+    background: url(../image/about.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     margin: 0px;
@@ -133,14 +133,17 @@ body{
      
  }
 #about > div{
-    background-color: mediumblue;
+    background-color: midnightblue;
     transform: 10%;
+   
 }
 .about-col-1{
+    opacity: 0.95;
     padding: 22.75%; 
     border-right: 1px solid white;
 }
 .about-col-2{
+     opacity: 0.8;
    padding: 20% ;
   
 }
