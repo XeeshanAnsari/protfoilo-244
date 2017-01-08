@@ -127,11 +127,27 @@ body{
     background: url(../image/cover.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    padding: 100px;
     margin: 0px;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
+     
+ }
+#about > div{
+    background-color: mediumblue;
+    transform: 10%;
 }
+.about-col-1{
+    padding: 22.75%; 
+    border-right: 1px solid white;
+}
+.about-col-2{
+   padding: 20% ;
+  
+}
+.about-col-2 div{
+    padding: 0px 10% 0px 10%;
+}
+
 
 
 
