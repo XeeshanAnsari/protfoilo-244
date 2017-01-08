@@ -174,6 +174,64 @@ body{
 
 
 
+/* contac section  start*/
+#contact{
+    background: url(../image/contactBackground.jpg) no-repeat center center;
+  
+    background-size: cover;
+    padding: 5%;
+    background-color: darkgray;
+    color: #333333;
+  
+}
+
+.contact-input-field{
+    width:  40%;
+    height: 10%;
+    color: black;
+    margin: 2px 0px;
+    padding: 1%;
+    
+    border-radius: 5px 5px ;
+}
+#email{
+    width: 81%;
+}
+
+#massage{
+    width:  81%;
+    color: black;
+    padding: 1%;
+    margin-top: -15px;
+    border-radius: 2px 5px ;
+}
+#massageBox{
+    padding: 20% 5%; 
+   
+}
+#massageBox p{
+    color: white;
+   
+}
+   
+
+#address{
+    font-family: cursive;
+    width: 80%;
+    background-color: white;
+    padding: 10%;
+    font-size: 90%;
+    line-height: 2em;
+}
+#address h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+  
+}
+#address > h3 >b{
+    border-bottom: 1px solid #000000;
+}
+/* contac section  End*/
 
 /* footer section start*/
 #footer{
