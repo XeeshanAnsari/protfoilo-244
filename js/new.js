@@ -3,7 +3,7 @@
 
 function changeProtBoxOver(){
     var id = document.getElementById("box1");
-     id.style.opacity = 0.7;
+     
      
      var linksshow = document.getElementById("hiddenLink-1");
      linksshow.style.display = "block";

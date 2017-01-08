@@ -74,7 +74,7 @@ body{
 
 
 .protBox{
-   
+   position: relative;
     border: 1px solid cadetblue;
     text-align: center; 
     margin: 0px;
@@ -89,14 +89,34 @@ body{
 
 
 #hiddenLink-1{
+    background-color: white;
+    height: 250px;
+    width: 100%;
     display: none;
-         
-}
-#hiddenLink-1 h2{
+    position: absolute;
     
-    background: blue;
+    top: 0%;
+      
 }
+ .github-links , .firebase-links{
+    color: white;
+    background: deepskyblue;
+    padding: 20px;
+    
+    
+    font-size: 150%;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-bottom-right-radius:  20% 50%;
+}
+ .firebase-links{
+         
+ }
+
 #hiddenLink{
+    position: absolute;
+    
     display: none;
 }
 
