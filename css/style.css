@@ -69,7 +69,7 @@ body{
 .mainSection{
    background-color: #EFEEE5;
    padding: 5%;
-  
+   backgroundattachment: fixed;
 }
 
 
@@ -141,7 +141,7 @@ body{
     display: none;
 }
 
-
+/* about section */
 #about{
     position: relative;
     text-align: center;
@@ -151,34 +151,97 @@ body{
     margin: 0px;
     color: white;
     font-size: 1.5em;
-     
+    width: 100%;
+    height: 650px; 
  }
 #about > div{
     background-color: midnightblue;
     
    
 }
+.about-col-1 , .about-col-2{
+     height: 100%;
+    padding-top: 20%;
+}
 .about-col-1{
     opacity: 0.97;
-    padding: 22.80%; 
+    
     border-right: 1px solid white;
 }
 .about-col-2{
      opacity: 0.8;
-   padding: 20% ;
+      
   
 }
-.about-col-2 div{
-    padding: 0px 10% 0px 10%;
+
+
+
+/* skills section */
+#skills{
+    
+    background-color: #aaaaaa;
+    padding: 5%;
+    text-align: center;
+}
+#skills-head{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    background: #111111;
+    border-bottom: 1px solid white;
+}
+#skills-body{
+    
+   
+    padding: 5%;
+    background: #222222;
+}
+#skills-body > div > p{
+    font-size: 2em;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    padding: 3%;
+    opacity: .4;
+    margin:  15px auto;
+    background: #aaaaaa;
+    border-radius: 50% 2%;
+}
+#status{
+    background: white;
+    width: 70%;
+    top: -15px;
+    margin:  0px auto;
+    border: 1px solid beige;
+    text-align: center;
+    color: white;
+}
+#status div{
+   width:  90%;
+   padding: 0px;
+    background: blue; 
 }
 
 
+#command-status{
+    margin: 5% auto;
+}
+#command-status h1{
+   font-weight: bold;
+  
+}
+#command-status > .progress{
+    width: 60%;
+    margin: 2% auto;
+    height: 50px;
+    border-radius: 20px;
+}
 
 /* contac section  start*/
 #contact{
     background: url(../image/contactBackground.jpg) no-repeat center center;
-  
-    background-size: cover;
+   background-size: cover;
     padding: 5%;
     background-color: darkgray;
     color: #333333;

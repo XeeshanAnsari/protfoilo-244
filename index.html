@@ -20,10 +20,11 @@
             
             <div id="navbar-nav">    
                   <ul class="nav navbar-nav " id="navItem">
-                      <li><a href="index.html"  >Home</a></li>
-                      <li><a href="index.html">Projects</a></li>
+                      <li><a href="index.html#header"  >Home</a></li>
+                      <li><a href="index.html#project">Projects</a></li>
+                      <li><a href="index.html#skills">Skills</a></li>
                       <li><a href="index.html#about">About</a></li>
-                      <li><a href="index.html#footer">Contact</a></li>
+                      <li><a href="index.html#contact">Contact</a></li>
                   </ul>
             </div> 
              
@@ -39,7 +40,7 @@
      <!-- Header end -->
      
      <!-- protfolio section is start-->
-     <div class="mainSection row ">
+     <div class="mainSection row " id="project">
         <div >
              <div class="col-md-6"  >
                  <div class="protBox" id="box1"  onmouseout="changeProtBoxOut('box1');" onmouseover="changeProtBoxOver('box1');">
@@ -61,7 +62,7 @@
                      <div id="hiddenLink-1">
                           <h1>Twitter Layout</h1>                        
                           <a href="https://github.com/XeeshanAnsari/twitter_layout_Lab_Assignment" class="github-links"  target="_blank">Code in GitHub  <span class="glyphicon glyphicon-send"></span></a>
-                          <a href="#" class="firebase-links" target="_blank" >Live View  <span class="glyphicon glyphicon-send"></span></a>
+                          <a href="https://twitter-244.firebaseapp.com/" class="firebase-links" target="_blank" >Live View  <span class="glyphicon glyphicon-send"></span></a>
                      </div>
                 </div>
             </div>
@@ -79,7 +80,6 @@
                      </div>
                 </div>
             </div>
-            <!--
               <div class="col-md-6">
                  <div class="protBox" id="box4" onmouseout="changeProtBoxOut('box4');" onmouseover="changeProtBoxOver('box4');" >
                      <img src="./image/memoryGame.png" alt="" onfocus="./image/img.jpg">
@@ -91,7 +91,6 @@
                      </div>
                 </div>
             </div>
-            -->
             
          </div>    
          <div >     
@@ -107,6 +106,7 @@
                      </div>
                 </div>
             </div>
+            <!--
               <div class="col-md-6">
                  <div class="protBox" id="box6" onmouseout="changeProtBoxOut('box6');" onmouseover="changeProtBoxOver('box6');" >
                      <img src="./image/translator.png" alt="" onfocus="./image/img.jpg">
@@ -118,7 +118,7 @@
                      </div>
                 </div>
             </div>
-            
+            -->
          </div>    
               
             
@@ -140,23 +140,53 @@
         </div>
     </div>
      <!-- About section is section-->
-     <!--
-         <div class="jumbotron">
-             
+     
+       <div  id="Skills">
+         <div id="skills-head">
+             <h1>SKILLS</h1>
+         </div>
+         <div id="skills-body" class="row ">
+             <div class="col-md-6">
+                 <p>HTML
+                     
+                 </p>
+                 <!-- with percentage 
+                     <div id="status"><div>90%</div></div>-->
+                 <p>CSS</p>
+                 <p>JAVASCRIPT</p>
+             </div>
+             <div class="col-md-6">
+                 <p>PHP</p>
+                 <p>BOOTSTRAP</p>
+                 <p>JAVA SWING</p>
+             </div>
+         </div>
+         <div  id="" >
+            
+             <!--<h1>HTML</h1>
              <div class="progress">
                  
-                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
-                  HTML
-                 </div>
+                 <span class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="50" aria-valuemax="100" style="min-width: 2em;">
+                  
+                 </span>
+                 
               </div>
+                <h1>CSS</h1>
               <div class="progress">
-                 <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
-                      CSS
+                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="50" aria-valuemax="100" style="min-width: 2em; width: 2%;">
+                     
                   </div>
               </div>
+                <h1>JAVASCRIPT</h1>
+              <div class="progress">
+                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="50" aria-valuemax="100" style="min-width: 2em; width: 2%;">
+                     
+                  </div>
+              </div>-->
    
          </div>
-      -->
+      </div>   
+    
       <!-- Contact section is Start-->
      <div id="contact">
        <div class="row">
@@ -210,20 +240,21 @@
             <div class="col-md-3 footerColum">
                 <h3>COMPANY</h3>
                 <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Protfolio</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Contact me</a></li>
+                      <li><a href="index.html#header"  >Home</a></li>
+                      <li><a href="index.html#project">Projects</a></li>
+                      <li><a href="index.html#skills">Skills</a></li>
+                      <li><a href="index.html#about">About</a></li>
+                      <li><a href="index.html#contact">Contact</a></li>
                       
                 </ul>
             </div>
             <div class="col-md-3 footerColum">
                 <h3>CONNECT ME</h3>
                 <ul>
-                      <li><a href="#" class="connectIcon"> <img src="./image/fb.png"  alt=""> FaceBook</a></li>
-                      <li><a href="#" class="connectIcon"> <img src="./image/tw.png"  alt=""> Twitter</a></li>
-                      <li><a href="#" class="connectIcon"> <img src="./image/go.png"  alt=""> Google+</a></li>
-                      <li><a href="#" class="connectIcon"> <img src="./image/ln.png"  alt=""> LinkedIn</a></li>
+                      <li><a href="#" class="connectIcon"> <img src="./image/facebook.png"  alt=""> FaceBook</a></li>
+                      <li><a href="#" class="connectIcon"> <img src="./image/twitter.png"  alt=""> Twitter</a></li>
+                      <li><a href="#" class="connectIcon"> <img src="./image/google.png"  alt=""> Google+</a></li>
+                      <li><a href="#" class="connectIcon"> <img src="./image/linked.png"  alt=""> LinkedIn</a></li>
                       
                 </ul>
             </div>
