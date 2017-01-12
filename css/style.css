@@ -78,7 +78,10 @@ body{
     border: 1px solid cadetblue;
     text-align: center; 
     margin: 2%;
-    transform: rotate(2deg);
+   
+}
+#box2 , #box4{
+    
 }
 .protBox img{
     width: 100%;
@@ -224,25 +227,12 @@ body{
 }
 
 
-#command-status{
-    margin: 5% auto;
-}
-#command-status h1{
-   font-weight: bold;
-  
-}
-#command-status > .progress{
-    width: 60%;
-    margin: 2% auto;
-    height: 50px;
-    border-radius: 20px;
-}
 
 /* contac section  start*/
 #contact{
     background: url(../image/contactBackground.jpg) no-repeat center center;
    background-size: cover;
-    padding: 5%;
+    padding: 10% 5% 10% 5%;
     background-color: darkgray;
     color: #333333;
   
