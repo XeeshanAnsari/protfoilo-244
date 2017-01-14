@@ -17,17 +17,5 @@ function changeProtBoxOut(boxId){
      hidden.style.display = "none";
         
 }
-var border = 0;
- window.setInterval(function box() {
-     
-     var div = document.getElementById("short-intro");
-      
-    
-     for (var i=0; i < 1000; i++){
-         div.style.opacity = border;
-         border = border + 0.0001;
-         
-         
-      }  
- },300);
+
  
