@@ -5,7 +5,7 @@ $(document).ready(function(){
     },1000);
     
      $("#address").animate({
-        right:'20%',
+        right:'10%',
         opacity: 1
     },2000);
     
@@ -26,7 +26,14 @@ $(document).ready(function(){
         opacity: 1
     },2000);
     
-   
+    // $("#box1").mouseenter(function(){
+    //     $("#hiddenLink-1").slideDown(300);
+    // });
+    //  $("#box1").mouseleave(function(){
+    //     $("#hiddenLink-1").slideUp(300);
+    // });
+    
+    
     
 });
 

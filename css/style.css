@@ -146,7 +146,7 @@ body{
 
 /* about section */
 #about{
-    position: relative;
+    
     text-align: center;
     background: url(../image/about.jpg) no-repeat center center;
     background-attachment: fixed;
@@ -167,16 +167,18 @@ body{
 }
 .about-col-1 , .about-col-2{
      height: 100%;
+     float: left;
+     font-size: 100%;
     padding-top: 20%;
 }
 .about-col-1{
     opacity: 0.97;
-    
+    width: 30%;
     border-right: 1px solid white;
 }
 .about-col-2{
      opacity: 0.8;
-      
+      width: 70%;
   
 }
 
@@ -244,6 +246,7 @@ body{
     background: url(../image/contactBackground.jpg) no-repeat center center;
    background-size: cover;
     padding: 10% 5% 10% 5%;
+    position: relative;
     background-color: darkgray;
     color: #333333;
   
@@ -283,8 +286,10 @@ body{
 #address{
     font-family: cursive;
     width: 80%;
-    position: absolute;
+    position: relative;
     opacity: 0;
+    margin: 0px auto;
+    margin-left: 20%;
     background-color: white;
     padding: 10%;
     font-size: 90%;
@@ -305,28 +310,48 @@ body{
     background-color: #000000;
     padding: 5%;
     padding-bottom: 2%;
+    color: #444444;
 }
 .footerInside{
-    border-bottom: 1px solid dimgray;
+    border-bottom: 1px solid #444444;
     padding: 20px;
 }
 
-.footerColum h3{
-    margin-left: 15%;
-    color: dimgray;
+.footerColum {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 1.5em;
+  color: #222222;
 }
-.footerColum ul{
-    list-style: none;
-    margin-left: 0px;
+.footerColum h1{
+    margin-left: 4%;
+   font-size: 2em;
+   font-weight: bold;
 }
-.connectIcon img{
-    width: 10%;
-    height: 10%;
-    margin: 2px;
-    color: black;
+.footerColum ul {
+  margin: 2% auto;
+}
+.footerColum ul li{
+    padding-left: 2%;
+    display: inline;
+}
+.footerColum ul li a{
+  color: #222222;
+}
+.footerColum ul li a:hover{
+  color: #888888;
+  text-decoration: none;
+}
+#github-icon{
+   
+}
+
+
+#copyRight{
+    padding: 1%;
 }
 #copyRight p{
-    color: dimgray;
+    
     padding-top: 2%;
     display: inline;
    text-align: left;
@@ -338,6 +363,16 @@ body{
 #footer-nav li{
     padding: 0%;
     display: inline;
+
+}
+#footer-nav li a{
+    color: #444444;
+    padding-left: 2px;
+    text-decoration: none;
+}
+#footer-nav li a:hover{
+    color: #aaaaaa;
+    text-decoration: none;
 }
 
 
