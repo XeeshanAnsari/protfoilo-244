@@ -17,15 +17,17 @@ function changeProtBoxOut(boxId){
      hidden.style.display = "none";
         
 }
- function box() {
-     var border = 0;
+var border = 0;
+ window.setInterval(function box() {
+     
      var div = document.getElementById("short-intro");
       
     
-     for (var i=0; i < 10; i++){
+     for (var i=0; i < 1000; i++){
          div.style.opacity = border;
-         border = border + 0.1;
+         border = border + 0.0001;
+         
          
       }  
- }
+ },300);
  

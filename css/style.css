@@ -47,6 +47,7 @@ body{
     color: #aaaaaa;
     font-size: 150%;
     line-height: 0.8em;
+    opacity: 0;
 }
 #short-intro h1{
     font-size: 400%;
@@ -289,7 +290,8 @@ body{
 /* footer section start*/
 #footer{
     background-color: #000000;
-    padding: 50px;
+    padding: 5%;
+    padding-bottom: 2%;
 }
 .footerInside{
     border-bottom: 1px solid dimgray;
@@ -306,14 +308,23 @@ body{
 }
 .connectIcon img{
     width: 10%;
-    height: 20px;
+    height: 10%;
     margin: 2px;
     color: black;
 }
 #copyRight p{
     color: dimgray;
-    padding-top: 20px;
-   text-align: center;
+    padding-top: 2%;
+    display: inline;
+   text-align: left;
+}
+#footer-nav{
+    display: inline;
+    float: right;
+}
+#footer-nav li{
+    padding: 0%;
+    display: inline;
 }
 
 
