@@ -1,22 +1,20 @@
 $(document).ready(function(){
+   
+    
     $("#short-intro").animate({
         right:'25%',
         opacity: 1
-    },1000);
+    },1000); 
+function scroll(){
     
-     $("#address").animate({
-        right:'10%',
-        opacity: 1
-    },2000);
+    var ypos = window.pageYOffset;
     
-    
-     $("#massageBox").animate({
-        opacity: 1
-    },1000);
+    if(ypos > 1500){
      $("#about-intro").animate({
         opacity: 1
-    },3000);
-    
+    },3000);    
+    }
+    if(ypos > 1900){
     $("#col-skill-1").animate({
         left:'5%',
         opacity: 1
@@ -24,7 +22,33 @@ $(document).ready(function(){
     $("#col-skill-2").animate({
         right:'5%',
         opacity: 1
-    },2000);
+    },2000);    
+    }
+    
+     if(ypos > 2600){
+     $("#address").animate({
+        right:'10%',
+        opacity: 1
+    },3000);
+    $("#massageBox").animate({
+        opacity: 1
+    },3000);  
+    }
+    if(ypos > 3300){
+     
+    $(".footerColum").animate({
+        opacity: 1
+    },3000);  
+    }
+  }
+    window.addEventListener("scroll",scroll);
+    
+  
+    
+     
+    
+    
+    
     
     // $("#box1").mouseenter(function(){
     //     $("#hiddenLink-1").slideDown(300);

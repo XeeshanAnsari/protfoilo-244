@@ -320,6 +320,7 @@ body{
 .footerColum {
   text-align: center;
   padding-bottom: 5%;
+  opacity: 0;
   font-size: 1.5em;
   color: #222222;
 }
