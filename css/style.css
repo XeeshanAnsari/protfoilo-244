@@ -337,16 +337,29 @@ body{
     display: inline;
 }
 .footerColum ul li a{
-  color: #222222;
+  color: #888888;
+   opacity: .2;
 }
 .footerColum ul li a:hover{
   color: #888888;
+  opacity: .8;
   text-decoration: none;
 }
-#github-icon{
-   
+.github-icon{
+   width: 2%;
+   height: 2%;
+  
 }
 
+#githubLarge-icon{
+    width: 10%;
+   height: 10%;
+  
+   opacity: .5;
+}
+#githubLarge-icon:hover{
+    opacity: 1;
+}
 
 #copyRight{
     padding: 1%;
